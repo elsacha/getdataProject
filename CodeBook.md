@@ -2,7 +2,7 @@
 ## TIDY DATA SET EXTRACTED FROM THE ORIGINAL HUMAN ACTIVITY RECOGNITION USING SMARTPHONES DATASET
 ## CodeBook
 
-### This data set was created based on the original Human Activity Recognition Using Smartphones Dataset. Please, refer to [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](Smartphone data set) for the full data set
+### This data set was created based on the original Human Activity Recognition Using Smartphones Dataset. Please, refer to [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](Smartphone data set) for the full data set
  
 
 In the new data set the original test and training data sets were merged. From the resulting data set only variables containing mean and standard deviation values were extracted. On the basis of this data, the average value of each extracted variable for each activity and each subject was computed and presented in a new tidy data set. Below you will find a brief description of the variables contained in the original data set and the list of the extracted variables.
