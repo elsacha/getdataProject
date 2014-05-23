@@ -75,7 +75,7 @@ Below you will find the list of all the extracted variables and their brief desc
 
 1. **SubjectID**        - Subject identification from 1 to 30
 
-2. **ActivityName	**	- Full name of activity (e.g. WALKING)
+2. **ActivityName**	- Full name of activity (e.g. WALKING)
 
 3. **tBodyAccMeanX**	- Body acceleration mean X axis (time signal)
 
