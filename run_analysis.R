@@ -30,6 +30,7 @@ mergedData <- cbind(mergedSubjects, mergedData)
 
 #Task 2 - Extract only the measurements on the mean and standard deviation for each measurement.
 #keep columns only with mean values (subject + activity+ 72 values = 74 columns)
+#column numbers were taken from features.txt file
 #column numbers augmented by 2 to take account of the first two columns (subject and activity)
 meansColnumbers <- c(3:8, 43:48, 83:88, 123:128, 163:168, 203:204, 229:230,
                      242:243, 255:256, 268:273, 347:352, 375:377, 426:431,

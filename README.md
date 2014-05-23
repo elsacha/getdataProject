@@ -30,7 +30,7 @@ To perform this task I followed the 5 steps described in the project specificati
 	 
 **Task 2** - Extract only the measurements on the mean and standard deviation for each measurement
 
-* keep columns only with mean and standard deviation  values (subject + activity+ 72 values = 74 columns)
+* keep columns only with mean and standard deviation  values (subject + activity+ 72 values = 74 columns). Column numbers were taken from features.txt file augmented by 2 to take account of the first two columns (subject and activity)
 * give more convenient names to columns (cf. CodeBook.md)
 
 **Task 3** - Use descriptive activity names to name the activities in the data set
