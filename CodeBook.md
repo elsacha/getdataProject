@@ -2,7 +2,7 @@
 ## TIDY DATA SET EXTRACTED FROM THE ORIGINAL HUMAN ACTIVITY RECOGNITION USING SMARTPHONES DATASET
 ## CodeBook
 
-### This data set was created based on the original Human Activity Recognition Using Smartphones Dataset. Please, refer to this [link]([]https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "Samsung data set")  for the full data set
+### This data set was created based on the original Human Activity Recognition Using Smartphones Dataset. Please, refer to [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](Smartphone data set) for the full data set
  
 
 In the new data set the original test and training data sets were merged. From the resulting data set only variables containing mean and standard deviation values were extracted. On the basis of this data, the average value of each extracted variable for each activity and each subject was computed and presented in a new tidy data set. Below you will find a brief description of the variables contained in the original data set and the list of the extracted variables.
@@ -73,155 +73,158 @@ The purposed of my work consisted in extracting  variables containing mean and s
 
 Below you will find the list of all the extracted variables and their brief description (the numbering corresponds to column numbers in the new tidy data set). For more details, please refer to  ***features.txt*** and ***features_info.txt*** files.
 
-1. SubjectID        Subject identification from 1 to 30
+1. **SubjectID**        - Subject identification from 1 to 30
 
-2. ActivityName		Full name of activity (e.g. WALKING)
+2. **ActivityName	**	- Full name of activity (e.g. WALKING)
 
-3. tBodyAccMeanX	Body acceleration mean X axis (time signal)
+3. **tBodyAccMeanX**	- Body acceleration mean X axis (time signal)
 
-4. tBodyAccMeanY	Body acceleration mean Y axis (time signal)
+4. **tBodyAccMeanY**	- Body acceleration mean Y axis (time signal)
 
-5. tBodyAccMeanZ	Body acceleration mean Z axis (time signal)
+5. **tBodyAccMeanZ**	- Body acceleration mean Z axis (time signal)
 
-6. tBodyAccStdX		Body acceleration standard deviation X axis (time domain signal)
+6. **tBodyAccStdX**		- Body acceleration standard deviation X axis (time domain signal)
 
-7. tBodyAccStdY		Body acceleration standard deviation Y axis (time domain signal)
+7. **tBodyAccStdY**		- Body acceleration standard deviation Y axis (time domain signal)
 
-8. tBodyAccStdZ		Body acceleration standard deviation Z axis (time domain signal)
+8. **tBodyAccStdZ**		- Body acceleration standard deviation Z axis (time domain signal)
 
-9. tGravityAccMeanX		Gravity acceleration mean X axis (time domain signal)
+9. **tGravityAccMeanX**		- Gravity acceleration mean X axis (time domain signal)
 
-10. tGravityAccMeanY	Gravity acceleration mean Y axis (time domain signal)
+10. **tGravityAccMeanY**	- Gravity acceleration mean Y axis (time domain signal)
 
-11. tGravityAccMeanZ	Gravity acceleration mean Z axis (time domain signal)
+11. **tGravityAccMeanZ**	- Gravity acceleration mean Z axis (time domain signal)
 
-12. tGravityAccStdX		Gravity acceleration standard deviation X axis (time domain signal)
+12. **tGravityAccStdX**		- Gravity acceleration standard deviation X axis (time domain signal)
 
-13. tGravityAccStdY		Gravity acceleration standard deviation Y axis (time domain signal)
+13. **tGravityAccStdY**		- Gravity acceleration standard deviation Y axis (time domain signal)
 
-14. tGravityAccStdZ		Gravity acceleration standard deviation Z axis (time domain signal)
+14. **tGravityAccStdZ**		- Gravity acceleration standard deviation Z axis (time domain signal)
 
-15. tBodyAccJerkMeanX	Body acceleration jerk mean X axis (time domain signal)
+15. **tBodyAccJerkMeanX**	- Body acceleration jerk mean X axis (time domain signal)
 
-16. tBodyAccJerkMeanY	Body acceleration jerk mean Y axis (time domain signal)
+16. **tBodyAccJerkMeanY**	- Body acceleration jerk mean Y axis (time domain signal)
 
-17. tBodyAccJerkMeanZ	Body acceleration jerk mean Z axis (time domain signal)
+17. **tBodyAccJerkMeanZ**	- Body acceleration jerk mean Z axis (time domain signal)
 
-18. tBodyAccJerkStdX	Body acceleration jerk standard deviation X axis (time domain signal)
+18. **tBodyAccJerkStdX**	- Body acceleration jerk standard deviation X axis (time domain signal)
 
-19. tBodyAccJerkStdY	Body acceleration jerk standard deviation Y axis (time domain signal)
+19. **tBodyAccJerkStdY**	- Body acceleration jerk standard deviation Y axis (time domain signal)
 
-20. tBodyAccJerkStdZ	Body acceleration jerk standard deviation Z axis (time domain signal)
+20. **tBodyAccJerkStdZ**	- Body acceleration jerk standard deviation Z axis (time domain signal)
 
-21. tBodyGyroMeanX	Body gyroscope mean X axis 	(time domain signal)
+21. **tBodyGyroMeanX**	- Body gyroscope mean X axis 	(time domain signal)
 
-22. tBodyGyroMeanY	Body gyroscope mean Y axis 	(time domain signal)
+22. **tBodyGyroMeanY**	- Body gyroscope mean Y axis 	(time domain signal)
 
-23. tBodyGyroMeanZ	Body gyroscope mean Z axis 	(time domain signal)
+23. **tBodyGyroMeanZ**	- Body gyroscope mean Z axis 	(time domain signal)
 
-24. tBodyGyroStdX	Body gyroscope standard deviation X axis (time domain signal)
+24. **tBodyGyroStdX**	- Body gyroscope standard deviation X axis (time domain signal)
 
-25. tBodyGyroStdY	Body gyroscope standard deviation Y axis (time domain signal)
+25. **tBodyGyroStdY**	- Body gyroscope standard deviation Y axis (time domain signal)
 
-26. tBodyGyroStdZ	Body gyroscope standard deviation Z axis (time domain signal)
+26. **tBodyGyroStdZ**	- Body gyroscope standard deviation Z axis (time domain signal)
 
-27. tBodyGyroJerkMeanX		Body gyroscope jerk mean X axis (time domain signal)
+27. **tBodyGyroJerkMeanX**		- Body gyroscope jerk mean X axis (time domain signal)
 
-28. tBodyGyroJerkMeanY		Body gyroscope jerk mean Y axis (time domain signal)
+28. **tBodyGyroJerkMeanY**		- Body gyroscope jerk mean Y axis (time domain signal)
 
-29. tBodyGyroJerkMeanZ		Body gyroscope jerk mean Z axis (time domain signal)
+29. **tBodyGyroJerkMeanZ**		- Body gyroscope jerk mean Z axis (time domain signal)
 
-30. tBodyGyroJerkStdX		Body gyroscope jerk standard deviation X axis (time domain signal)
+30. **tBodyGyroJerkStdX**		- Body gyroscope jerk standard deviation X axis (time domain signal)
 
-31. tBodyGyroJerkStdY		Body gyroscope jerk standard deviation Y axis (time domain signal)		
+31. **tBodyGyroJerkStdY**		- Body gyroscope jerk standard deviation Y axis (time domain signal)		
 
-32. tBodyGyroJerkStdZ		Body gyroscope jerk standard deviation Z axis (time domain signal)
+32. **tBodyGyroJerkStdZ**		- Body gyroscope jerk standard deviation Z axis (time domain signal)
 
-33. tBodyAccMagMean Body acceleration magnitude mean (time domain signal) 
+33. **tBodyAccMagMean** - Body acceleration magnitude mean (time domain signal) 
 
-34. tBodyAccMagStd	Body acceleration magnitude standard deviation (time domain signal) 
+34. **tBodyAccMagStd**	- Body acceleration magnitude standard deviation (time domain signal) 
 
-35. tBodyAccJerkMagMean		Body acceleration  jerk magnitude mean (time domain signal)
+35. **tBodyAccJerkMagMean**		- Body acceleration  jerk magnitude mean (time domain signal)
 
-36. tBodyAccJerkMagStd		Body acceleration  jerk magnitude standard deviation (time domain signal)
-37. tBodyGyroMagMean	Body gyroscope magnitude mean (time domain signal)
+36. **tBodyAccJerkMagStd**		- Body acceleration  jerk magnitude standard deviation (time domain signal)
 
-38. tBodyGyroMagStd		Body gyroscope magnitude standard deviation (time domain signal)	
-39. tBodyGyroJerkMagMean	Body gyroscope jerk magnitude mean (time domain signal)  
+37. **tBodyGyroMagMean**	- Body gyroscope magnitude mean (time domain signal)
 
-40. tBodyGyroJerkMagStd		Body gyroscope jerk magnitude standard deviation (time domain signal)		
+38. **tBodyGyroMagStd**		- Body gyroscope magnitude standard deviation (time domain signal)	
 
-41. fBodyAccMeanX		Body acceleration mean X axis (frequency domain signal)		
-42. fBodyAccMeanY		Body acceleration mean Y axis (frequency domain signal)
+39. **tBodyGyroJerkMagMean**	- Body gyroscope jerk magnitude mean (time domain signal)  
 
-43. fBodyAccMeanZ		Body acceleration mean Z axis (frequency domain signal)
+40. **tBodyGyroJerkMagStd**		- Body gyroscope jerk magnitude standard deviation (time domain signal)		
 
-44. fBodyAccStdX		Body acceleration standard deviation X axis (frequency domain signal)
+41. **fBodyAccMeanX**		- Body acceleration mean X axis (frequency domain signal)		
 
-45. fBodyAccStdY		Body acceleration standard deviation Y axis (frequency domain signal)
+42. **fBodyAccMeanY**		- Body acceleration mean Y axis (frequency domain signal)
 
-46. fBodyAccStdZ		Body acceleration standard deviation Z axis (frequency domain signal)
+43. **fBodyAccMeanZ**		- Body acceleration mean Z axis (frequency domain signal)
 
-47. fBodyAccJerkMeanX	Fody acceleration jerk mean X axis (frequency domain signal)
+44. **fBodyAccStdX**		- Body acceleration standard deviation X axis (frequency domain signal)
 
-48. fBodyAccJerkMeanY	Body acceleration jerk mean Y axis (frequency domain signal)
+45. **fBodyAccStdY**		- Body acceleration standard deviation Y axis (frequency domain signal)
 
-49. fBodyAccJerkMeanZ	Body acceleration jerk mean Z axis (frequency domain signal)
+46. **fBodyAccStdZ**		- Body acceleration standard deviation Z axis (frequency domain signal)
 
-50. fBodyAccJerkStdX	Body acceleration jerk standard deviation X axis (frequency domain signal)
+47. **fBodyAccJerkMeanX**	- Fody acceleration jerk mean X axis (frequency domain signal)
 
-51. fBodyAccJerkStdY	Body acceleration jerk standard deviation Y axis (frequency domain signal)
+48. **fBodyAccJerkMeanY**	- Body acceleration jerk mean Y axis (frequency domain signal)
 
-52. fBodyAccJerkStdZ	Body acceleration jerk standard deviation Z axis (frequency domain signal)
+49. **fBodyAccJerkMeanZ**	- Body acceleration jerk mean Z axis (frequency domain signal)
 
+50. **fBodyAccJerkStdX**	- Body acceleration jerk standard deviation X axis (frequency domain signal)
 
-53. fBodyAccJerkMeanFreqX 	Body acceleration jerk mean frequency X axis (frequency domain signal)
+51. **fBodyAccJerkStdY**	- Body acceleration jerk standard deviation Y axis (frequency domain signal)
 
+52. **fBodyAccJerkStdZ**	- Body acceleration jerk standard deviation Z axis (frequency domain signal)
 
-54. fBodyAccJerkMeanFreqY	Body acceleration jerk mean frequency Y axis (frequency domain signal)
 
+53. **fBodyAccJerkMeanFreqX** 	- Body acceleration jerk mean frequency X axis (frequency domain signal)
 
-55. fBodyAccJerkMeanFreqZ	Body acceleration jerk mean frequency Z axis (frequency domain signal)
 
+54. **fBodyAccJerkMeanFreqY**	- Body acceleration jerk mean frequency Y axis (frequency domain signal)
 
-56. fBodyGyroMeanX		Body gyroscope mean X axis (frequency domain signal)
 
-57. fBodyGyroMeanY		Body gyroscope mean Y axis (frequency domain signal)
+55. **fBodyAccJerkMeanFreqZ**	- Body acceleration jerk mean frequency Z axis (frequency domain signal)
 
-58. fBodyGyroMeanZ		Body gyroscope mean Z axis (frequency domain signal)
 
-59. fBodyGyroStdX		Body gyroscope standard deviation X axis (frequency domain signal)
+56. **fBodyGyroMeanX**		- Body gyroscope mean X axis (frequency domain signal)
 
-60. fBodyGyroStdY		Body gyroscope standard deviation Y axis (frequency domain signal)
+57. **fBodyGyroMeanY**		- Body gyroscope mean Y axis (frequency domain signal)
 
-61. fBodyGyroStdZ		Body gyroscope standard deviation Z axis (frequency domain signal)
+58. **fBodyGyroMeanZ**		- Body gyroscope mean Z axis (frequency domain signal)
 
-62. fBodyGyroMeanFreqX	Body gyroscope mean frequency X axis (frequency domain signal)
+59. **fBodyGyroStdX**		- Body gyroscope standard deviation X axis (frequency domain signal)
 
-63. fBodyGyroMeanFreqY	Body gyroscope mean frequency Y axis (frequency domain signal)
+60. **fBodyGyroStdY**		- Body gyroscope standard deviation Y axis (frequency domain signal)
 
+61. **fBodyGyroStdZ**		- Body gyroscope standard deviation Z axis (frequency domain signal)
 
-64. fBodyGyroMeanFreqZ	Body gyroscope mean frequency Z axis (frequency domain signal)
+62. **fBodyGyroMeanFreqX**	- Body gyroscope mean frequency X axis (frequency domain signal)
 
+63. **fBodyGyroMeanFreqY**	- Body gyroscope mean frequency Y axis (frequency domain signal)
 
-65. fBodyAccMagMean		Body acceleration magnitude mean (frequency domain signal)
 
+64. **fBodyGyroMeanFreqZ**	- Body gyroscope mean frequency Z axis (frequency domain signal)
 
-66. fBodyAccMagStd	Body acceleration magnitude standard deviation (frequency domain signal)
 
-67. fBodyBodyGyroMagMean	Body body gyroscope magnitude mean (frequency domain signal)
+65. **fBodyAccMagMean**		- Body acceleration magnitude mean (frequency domain signal)
 
-68. fBodyBodyGyroMagStd		Body body gyroscope magnitude standard deviation (frequency domain signal)
 
+66. **fBodyAccMagStd**	- Body acceleration magnitude standard deviation (frequency domain signal)
 
-69. fBodyBodyGyroMagMeanFreq	Body body gyroscope magnitude mean frequency (frequency domain signal)
+67. **fBodyBodyGyroMagMean**	- Body body gyroscope magnitude mean (frequency domain signal)
 
-70. fBodyBodyGyroJerkMagMean	Body body gyroscope jerk magnitude mean (frequency domain signal)
+68. **fBodyBodyGyroMagStd**		- Body body gyroscope magnitude standard deviation (frequency domain signal)
 
-71. fBodyBodyGyroJerkMagStd		Body body gyroscope jerk magnitude standard deviation (frequency domain signal)
 
-72. angleXGravityMean	Angle X axis gravity mean
+69. **fBodyBodyGyroMagMeanFreq**	- Body body gyroscope magnitude mean frequency (frequency domain signal)
 
-73. angleYGravityMean	Angle Y axis gravity mean
+70. **fBodyBodyGyroJerkMagMean**	- Body body gyroscope jerk magnitude mean (frequency domain signal)
 
-74. angleZGravityMean	Angle Z axis gravity mean
+71. **fBodyBodyGyroJerkMagStd**		- Body body gyroscope jerk magnitude standard deviation (frequency domain signal)
+
+72. **angleXGravityMean**	- Angle X axis gravity mean
+
+73. **angleYGravityMean**	- Angle Y axis gravity mean
+
+74. **angleZGravityMean**	- Angle Z axis gravity mean
